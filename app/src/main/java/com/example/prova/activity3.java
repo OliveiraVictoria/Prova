@@ -14,15 +14,14 @@ public class activity3 extends activity{
         super.onCreate(savedInstanceState);
         //Vinculando minha view ao meu controller
         setContentView(R.layout.tela3);
+        Button buttonCliqueAqui = findViewById(R.id.button5);
+        buttonCliqueAqui.setOnClickListener(new View.OnClickListener() {
 
-        //Button buttonCliqueAqui = findViewById(R.id.but);
-        //buttonCliqueAqui.setOnClickListener(new View.OnClickListener() {
-
-            //@Override
-            //public void onClick(View view) {
-                //Intent intent = new Intent(activity3.this, activity3.class);
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(activity3.this, activity3.class);
 
             }
-        //});
+        });
     }
-//}
+}

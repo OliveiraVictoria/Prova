@@ -1,6 +1,5 @@
 package com.example.prova;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -14,7 +13,6 @@ public class activity extends android.app.Activity {
         super.onCreate(savedInstanceState);
         //Vinculando minha view ao meu controller
         setContentView(R.layout.tela1);
-        setContentView(R.layout.tela2);
         Button buttonCliqueAqui = findViewById(R.id.button2);
         buttonCliqueAqui.setOnClickListener(new View.OnClickListener() {
 
